@@ -34,7 +34,7 @@ def darstBalken(canvas, arr):
         y_unten = canvas_höhe           # untere seite des balkens
 
         # Zeichnet den Balken auf dem Canvas mit den berechneten Koordinaten
-        canvas.create_rectangle(x_links, y_oben, x_rechts, y_unten, fill="blue")
+        canvas.create_rectangle(x_links, y_oben, x_rechts, y_unten, fill="lightpink")
 
 
 def sort_list():
